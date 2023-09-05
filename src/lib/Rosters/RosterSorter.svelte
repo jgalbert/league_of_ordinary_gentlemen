@@ -50,12 +50,14 @@
 
 	.banner-D-1 {
 		background-image: url("/division-1-banner.png");
-		background-position: left; 
+		background-position: left;
+		padding-left: 50px; 
 	}
 
 	.banner-D-2 {
 		background-image: url("/division-2-banner.png");
-		background-position: right; 
+		background-position: right;
+		padding-right: 50px; 
 	}
 
 	.banner-D-3 {
