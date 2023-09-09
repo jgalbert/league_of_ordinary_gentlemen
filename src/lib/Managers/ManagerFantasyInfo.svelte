@@ -173,10 +173,10 @@
     {#if viewManager.rookieOrVets}
         <div class="infoSlot">
             <div class="infoLabel">
-                Rookie or Vet Preference
+                Favorite Drink
             </div>
             <div class="infoIcon">
-                <img class="rookiesOrVets" src="/{viewManager.rookieOrVets}.png" alt="rookie or vet preference"/>
+                <img class="rookiesOrVets" src="/{viewManager.rookieOrVets}.png" alt="Favorite Drink"/>
             </div>
             <div class="infoAnswer">
                 {viewManager.rookieOrVets}
@@ -187,7 +187,7 @@
     {#if viewManager.valuePosition}
         <div class="infoSlot">
             <div class="infoLabel">
-                Favorite Fantasy Asset
+                Favorite Restaurant
             </div>
             <div class="infoIcon {viewManager.valuePosition}">
                 <span class="valuePosition">{viewManager.valuePosition}</span>
