@@ -189,8 +189,11 @@
             <div class="infoLabel">
                 Favorite Restaurant
             </div>
-            <div class="infoIcon {viewManager.valuePosition}">
-                <span class="valuePosition">{viewManager.valuePosition}</span>
+            <div class="infoIcon">
+                <img class="valuePosition" src="/{viewManager.valuePosition}.png" alt="Favorite Restaurant"/>
+            </div>
+            <div class="infoAnswer">
+                {viewManager.valuePosition}
             </div>
         </div>
     {/if}
@@ -226,7 +229,7 @@
     {#if viewManager.mode}
         <div class="infoSlot">
             <div class="infoLabel">
-                Win Now or Rebuild?
+                Team Format
             </div>
             <div class="infoIcon">
                 <img class="rebuildOrWin" src="/{viewManager.mode.replace(' ', '%20')}.png" alt="win now or rebuild"/>
