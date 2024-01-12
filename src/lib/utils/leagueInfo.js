@@ -31,8 +31,8 @@ export const managers = [
     "managerID": "432592868805189632",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
     "name": "Jacob Albert",
     "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-    "location": "St. Joseph, MI", // (optional)
-    "bio": "Hello, I'm Jacob! I got my start in Fantasy as the 12th guy to fill out a league with some friends back in 2017. Beginner's luck saw me take 2nd in that first league and I've been chasing that high ever since. Growing up I only casually followed the NFL supporting the 9er's because of my dad. Fantasy opened the door to the NFL as a whole for me. Fantasy has evolved for me to the point that I started commish'ing this league in it's inaugral year. I'm fully hooked, love the competition, and really enjoy the friends I've picked up along the way. Outside of fantasy, I'm 100% dedicated to Notre Dame and am an ameteur photographer and aspiring blues guitarist.",
+    "location": "Jenison, MI", // (optional)
+    "bio": "Hello, I'm Jacob! I got my start in Fantasy as the 12th guy to fill out a league with some friends back in 2017. Beginner's luck saw me take 2nd in that first league and I've been chasing that high ever since. Growing up I only casually followed the NFL supporting the 9er's because of my dad. Fantasy opened the door to the NFL as a whole for me and has evolved to the point that I started commish'ing this league in it's inaugral year. I'm fully hooked, love the competition, and really enjoy the friends I've picked up along the way. Outside of fantasy, I'm 100% dedicated to Notre Dame and am an ameteur photographer and aspiring blues guitarist.",
     "photo": "/managers/jacob.jpg", // square ratio recommended (no larger than 500x500)
     "fantasyStart": 2017, // (optional) when did the manager start playing fantasy football
     "favoriteTeam": "sf", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
