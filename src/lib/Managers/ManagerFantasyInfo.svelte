@@ -173,7 +173,7 @@
     {#if viewManager.rookieOrVets}
         <div class="infoSlot">
             <div class="infoLabel">
-                Rookie or Vet Preference
+                Favorite Drink
             </div>
             <div class="infoIcon">
                 <img class="rookiesOrVets" src="/{viewManager.rookieOrVets}.png" alt="rookie or vet preference"/>
@@ -187,7 +187,7 @@
     {#if viewManager.valuePosition}
         <div class="infoSlot">
             <div class="infoLabel">
-                Favorite Fantasy Asset
+                Favorite Restaurant
             </div>
             <div class="infoIcon {viewManager.valuePosition}">
                 <span class="valuePosition">{viewManager.valuePosition}</span>
@@ -226,7 +226,7 @@
     {#if viewManager.mode}
         <div class="infoSlot">
             <div class="infoLabel">
-                Win Now or Rebuild?
+                Team Format
             </div>
             <div class="infoIcon">
                 <img class="rebuildOrWin" src="/{viewManager.mode.replace(' ', '%20')}.png" alt="win now or rebuild"/>
