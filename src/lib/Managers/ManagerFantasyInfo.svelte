@@ -176,7 +176,7 @@
                 Favorite Drink
             </div>
             <div class="infoIcon">
-                <img class="rookiesOrVets" src="/{viewManager.rookieOrVets}.png" alt="rookie or vet preference"/>
+                <img class="rookiesOrVets" src="/{viewManager.rookieOrVets}.png" alt="Favorite Drink"/>
             </div>
             <div class="infoAnswer">
                 {viewManager.rookieOrVets}
@@ -189,8 +189,11 @@
             <div class="infoLabel">
                 Favorite Restaurant
             </div>
-            <div class="infoIcon {viewManager.valuePosition}">
-                <span class="valuePosition">{viewManager.valuePosition}</span>
+            <div class="infoIcon">
+                <img class="valuePosition" src="/{viewManager.valuePosition}.png" alt="Favorite Restaurant"/>
+            </div>
+            <div class="infoAnswer">
+                {viewManager.valuePosition}
             </div>
         </div>
     {/if}
