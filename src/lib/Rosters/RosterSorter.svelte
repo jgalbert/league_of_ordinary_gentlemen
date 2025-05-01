@@ -129,7 +129,6 @@
 {#each divisions as division, ix}
 	{#if division.name}
 		<div class="banner banner-D-{ix + 1}">
-			<h2>{division.name}</h2>
 		</div>
 	{/if}
 	<div class="division">
